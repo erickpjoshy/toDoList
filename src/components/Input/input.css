@@ -1,0 +1,24 @@
+.input {
+  color: #000;
+  margin: 10px;
+  width: 100%;
+  height: 50px;
+  margin: 1px solid aqua;
+}
+.date input {
+  width: 50%;
+  margin: 0px;
+}
+.date {
+  margin: 10px;
+  justify-content: space-between !important;
+}
+.date h3 {
+  color: #34caca;
+  width: 50%;
+}
+@media (max-width: 470px) {
+  .input {
+    width: 100%;
+  }
+}

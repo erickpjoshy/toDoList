@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.border {
+  margin-top: 200px;
+  width: 50%;
+  border: 1px solid aqua;
+  height: auto;
+  min-height: 200px;
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.label {
+  border: 1px solid aqua;
+  margin: 15px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.checkbox {
+  width: 25px;
+  margin: 16px;
+  height: auto;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: red;
+}
+
+.date-head {
+  align-items: center !important;
+}
+/* ----------responsive----------------- */
+
+@media (max-width: 470px) {
+  .border {
+    width: 100%;
+    margin: 5px 5px 0;
+  }
+}
